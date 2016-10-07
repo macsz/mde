@@ -91,8 +91,13 @@ export PATH=/usr/local/bin:$PATH
 # Load .bashrc if it exists
 test -f ~/.bashrc && source ~/.bashrc
 
+# Disable installing pip packages outside of the virtualenv
+export PIP_REQUIRE_VIRTUALENV=true
+
+# Add gpip that allows to bypass the rule above and install
+# pip packages outside of the virtualenv
 gpip(){
    PIP_REQUIRE_VIRTUALENV="" pip "$@"
 }
 
-export PIP_REQUIRE_VIRTUALENV=true
+export PATH="/usr/local/sbin:$PATH"
