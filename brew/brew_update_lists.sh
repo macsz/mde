@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -x
 
 # NOTE: this script does *not* update local packages
 # installed with brew. It is supposed to update lists
