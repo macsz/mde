@@ -1,0 +1,13 @@
+gdbm
+git
+libyaml
+openssl
+pcre
+perl
+python
+readline
+ruby
+sqlite
+vim
+zsh
+zsh-completions
