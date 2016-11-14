@@ -1,5 +1,6 @@
 gdbm
 git
+libevent
 libyaml
 openssl
 pcre
@@ -8,6 +9,7 @@ python
 readline
 ruby
 sqlite
+tmux
 vim
 zsh
 zsh-completions
