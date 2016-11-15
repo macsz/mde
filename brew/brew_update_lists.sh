@@ -6,4 +6,4 @@
 
 brew list > brew.list
 brew cask list > brew.cask.list
-
+brew tap > brew.tap.list
