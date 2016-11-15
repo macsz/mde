@@ -1,3 +1,4 @@
+docker
 gdbm
 git
 libevent
@@ -6,10 +7,12 @@ openssl
 pcre
 perl
 python
+python3
 readline
 ruby
 sqlite
 tmux
 vim
+xz
 zsh
 zsh-completions
