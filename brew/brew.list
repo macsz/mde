@@ -1,11 +1,13 @@
 docker
 gdbm
 git
+htop
 libevent
 libyaml
 openssl
 pcre
 perl
+postgresql
 python
 python3
 readline
