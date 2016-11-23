@@ -1,5 +1,14 @@
 #!/bin/bash -x
 
-brew install `cat brew.list | xargs`
-brew cask install `cat brew.cask.list | xargs`
-brew tap `cat brew.tap.list | xargs`
+# Param (optional): directory that contains list of brew packages and casks
+
+if [ -z ${1+x} ];
+then
+    DIR='.'
+else
+    DIR=$1
+fi
+
+brew tap `cat $DIR/brew.tap.list | xargs`
+brew install `cat $DIR/brew.list | xargs`
+brew cask install `cat $DIR/brew.cask.list | xargs`
