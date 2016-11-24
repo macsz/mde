@@ -7,7 +7,7 @@ xcode-select --install
 ./brew/install_packages.sh brew
 
 # install OhMyZSH
-./zsh/install.sh
+./zsh/install.sh zsh
 
 # configure git
 ./git/install.sh git
