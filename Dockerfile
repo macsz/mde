@@ -37,7 +37,8 @@ RUN curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh | 
 # Setup VS Code
 RUN curl -fsSL https://code-server.dev/install.sh | zsh
 
+ADD entrypoint.sh /entrypoint.sh
+ENTRYPOINT [ "./entrypoint.sh" ]
 EXPOSE 8080
 
-ENTRYPOINT [ "code-server", "--bind-addr", "0.0.0.0:8080", "&" ]
 CMD [ "zsh" ]
