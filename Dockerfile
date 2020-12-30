@@ -21,13 +21,15 @@ ENV TERM="xterm"
 ENV ZSH="$HOME/.oh-my-zsh"
 
 # Setup ZSH as a default shell
-RUN apt-get update && \
-    apt-get install -y \
-        curl \
-        git \
+RUN apt-get update \
+    && apt-get install -y \
         locales \
         locales-all \
-        zsh
+    && apt-get install -y \
+        curl \
+        git \
+        zsh \
+    && locale-gen en_US.UTF-8
 SHELL ["/usr/bin/zsh", "-c"]
 
 RUN curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh | zsh || true
