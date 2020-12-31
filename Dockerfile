@@ -13,6 +13,17 @@ ARG no_proxy=""
 ARG SOCKS_PROXY=""
 ARG socks_proxy=""
 
+ENV HTTP_PROXY=$HTTP_PROXY
+ENV http_proxy=$http_proxy
+ENV HTTPS_PROXY=$HTTPS_PROXY
+ENV https_proxy=$https_proxy
+ENV FTP_PROXY=$FTP_PROXY
+ENV ftp_proxy=$ftp_proxy
+ENV NO_PROXY=$NO_PROXY
+ENV no_proxy=$no_proxy
+ENV SOCKS_PROXY=$SOCKS_PROXY
+ENV socks_proxy=$socks_proxy
+
 
 ENV LANG="en_US.UTF-8"
 ENV LANGUAGE="en_US:en"
