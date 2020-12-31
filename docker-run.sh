@@ -2,6 +2,7 @@
 
 docker run \
     -p 8080:8080 \
+    -v /localdisk/maciej/ws/:/data/ \
     --name devenv \
     --hostname devenv \
     --restart unless-stopped \
