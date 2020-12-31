@@ -42,6 +42,11 @@ RUN apt-get update \
     && apt-get install -y \
         curl \
         git \
+        libglib2.0-0 \
+        libsm6 \
+        libxext6 \
+        libxrender-dev \
+        unzip \
         wget \
         zsh \
     && locale-gen en_US.UTF-8
@@ -50,7 +55,8 @@ SHELL ["/usr/bin/zsh", "-c"]
 RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
     && mkdir /root/.conda \
     && bash Miniconda3-latest-Linux-x86_64.sh -b \
-    && rm -f Miniconda3-latest-Linux-x86_64.sh
+    && rm -f Miniconda3-latest-Linux-x86_64.sh \
+    && conda init zsh
 
 RUN curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh | zsh || true
 
