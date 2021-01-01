@@ -67,7 +67,9 @@ RUN curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh | 
 RUN curl -fsSL https://code-server.dev/install.sh | zsh
 
 ADD entrypoint.sh /entrypoint.sh
-ENTRYPOINT [ "./entrypoint.sh" ]
+ENTRYPOINT [ "/entrypoint.sh" ]
 EXPOSE 8080
+
+WORKDIR /data/
 
 CMD [ "zsh" ]
