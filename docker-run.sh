@@ -2,6 +2,8 @@
 
 docker run \
     -p 8080:8080 \
+    -p 8888:8888 \
+    -p 8097:8097 \
     -v /localdisk/maciej/ws/:/data/ \
     --name devenv \
     --hostname devenv \
