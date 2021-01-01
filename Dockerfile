@@ -56,7 +56,10 @@ RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
     && mkdir /root/.conda \
     && bash Miniconda3-latest-Linux-x86_64.sh -b \
     && rm -f Miniconda3-latest-Linux-x86_64.sh \
-    && conda init zsh
+    && conda init zsh \
+    && conda install -c conda-forge jupyterlab \
+    && conda install -c pytorch pytorch=1.4.0 torchvision torchaudio \
+    && conda install scipy tensorflow-gpu
 
 RUN curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh | zsh || true
 
