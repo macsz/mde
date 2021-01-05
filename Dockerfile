@@ -42,12 +42,14 @@ RUN apt-get update \
     && apt-get install -y \
         curl \
         git \
+        libgl1-mesa-glx \
         libglib2.0-0 \
         libsm6 \
         libxext6 \
         libxrender-dev \
         unzip \
         wget \
+        vim \
         zsh \
     && locale-gen en_US.UTF-8
 SHELL ["/usr/bin/zsh", "-c"]
