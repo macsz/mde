@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "GitHub Dark",
+    "python.insidersChannel": "weekly",
+    "python.defaultInterpreterPath": "/usr/local/anaconda3/bin/python",
+    "editor.fontFamily": "'MesloLGS NF', Menlo, Monaco, 'Courier New', monospace",
+    "remote.SSH.useLocalServer": false,
+    "remote.SSH.remotePlatform": {
+        "ra77": "linux"
+    }
+}
