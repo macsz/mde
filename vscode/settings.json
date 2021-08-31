@@ -5,6 +5,13 @@
     "editor.fontFamily": "'MesloLGS NF', Menlo, Monaco, 'Courier New', monospace",
     "remote.SSH.useLocalServer": false,
     "remote.SSH.remotePlatform": {
-        "ra77": "linux"
+        "ra77": "linux",
+        "cluster": "linux"
+    },
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/.tox": true
     }
 }
+
