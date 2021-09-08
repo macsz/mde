@@ -1,0 +1,14 @@
+export PATH="/usr/local/anaconda3/bin:$PATH"
+
+export http_proxy=http://proxy-chain.intel.com:911
+export https_proxy=http://proxy-chain.intel.com:912
+export no_proxy=intel.com,.intel.com,localhost,127.0.0.1
+
+alias watch='watch '
+alias kga="kubectl get all"
+alias kcf="kubectl create -f"
+alias kd="kubectl delete"
+
+ke () {
+    kubectl exec -ti $1 -- bash
+}
