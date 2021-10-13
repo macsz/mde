@@ -4,6 +4,26 @@ export http_proxy=http://proxy-chain.intel.com:911
 export https_proxy=http://proxy-chain.intel.com:912
 export no_proxy=intel.com,.intel.com,localhost,127.0.0.1
 
+# ZSH fine-tuning
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=244"
+
+# Enable better_exception for Python
+# Install: pip install better_exceptions
+export BETTER_EXCEPTIONS=1
+
+# Disable installing pip packages outside of the virtualenv
+export PIP_REQUIRE_VIRTUALENV=true
+
+# Add gpip that allows to bypass the rule above and install
+# pip packages outside of the virtualenv
+gpip(){
+    PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}
+
+gpip3(){
+    PIP_REQUIRE_VIRTUALENV="" pip3 "$@"
+}
+
 alias watch='watch '
 alias kga="kubectl get all"
 alias kcf="kubectl create -f"
@@ -12,3 +32,5 @@ alias kd="kubectl delete"
 ke () {
     kubectl exec -ti $1 -- bash
 }
+
+export EDITOR="vim"

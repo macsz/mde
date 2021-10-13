@@ -90,30 +90,12 @@ export PATH=/usr/local/bin:$PATH
 # Load .bashrc if it exists
 test -f ~/.bashrc && source ~/.bashrc
 
-# Disable installing pip packages outside of the virtualenv
-export PIP_REQUIRE_VIRTUALENV=true
-
-# Add gpip that allows to bypass the rule above and install
-# pip packages outside of the virtualenv
-gpip(){
-    PIP_REQUIRE_VIRTUALENV="" pip "$@"
-}
-
-gpip3(){
-    PIP_REQUIRE_VIRTUALENV="" pip3 "$@"
-}
-
 proxy(){
     ALL_PROXY=http://proxy-chain.intel.com:911 $@
 }
 
-export EDITOR="vim"
-export PATH="/usr/local/sbin:$PATH"
-export PATH="/usr/local/opt/openssl/bin:$PATH"
 
-export GOPATH=/Users/mszankin/Code/go
-export PATH="${GOPATH}/bin:${PATH}"
-export PATH="/usr/local/opt/opencv3/bin:$PATH"
+
 source /usr/local/bin/virtualenvwrapper.sh
 
 # OSX word jump on alt+arrows
