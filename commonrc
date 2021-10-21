@@ -24,6 +24,7 @@ alias watch='watch '
 alias kga="kubectl get all"
 alias kcf="kubectl create -f"
 alias kd="kubectl delete"
+alias bu="brew update && brew upgrade && brew upgrade --cask && brew cleanup"
 
 ke () {
     kubectl exec -ti $1 -- bash
