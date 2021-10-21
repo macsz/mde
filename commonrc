@@ -34,3 +34,19 @@ ke () {
 }
 
 export EDITOR="vim"
+
+function condatog() {
+    if [ -n "${no_conda_path:+1}" ] && [ "$1" != "keep_session" ]; then
+        export PATH=$no_conda_path
+        unset no_conda_path
+        echo CONDA CLEAR
+    else
+        export no_conda_path=$PATH
+        export PATH=/usr/local/anaconda3/bin:"$PATH"
+        . /usr/local/anaconda3/etc/profile.d/conda.sh
+        echo CONDA SET
+    fi
+}
+
+# Enable Anaconda by default
+condatog keep_session
