@@ -90,12 +90,6 @@ export PATH=/usr/local/bin:$PATH
 # Load .bashrc if it exists
 test -f ~/.bashrc && source ~/.bashrc
 
-proxy(){
-    ALL_PROXY=http://proxy-chain.intel.com:911 $@
-}
-
-
-
 source /usr/local/bin/virtualenvwrapper.sh
 
 # OSX word jump on alt+arrows
