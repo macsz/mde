@@ -1,9 +1,4 @@
 export DE_PATH=~/.devenv
-export PATH="/usr/local/anaconda3/bin:$PATH"
-
-export http_proxy=http://proxy-chain.intel.com:911
-export https_proxy=http://proxy-chain.intel.com:912
-export no_proxy=intel.com,.intel.com,localhost,127.0.0.1
 
 # ZSH fine-tuning
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=244"
