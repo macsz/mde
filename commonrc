@@ -26,6 +26,13 @@ alias kcf="kubectl create -f"
 alias kd="kubectl delete"
 alias bu="brew update && brew upgrade && brew upgrade --cask && brew cleanup"
 
+# Conda Use Environment
+cue () {
+    E=$(basename $(pwd))
+    [ ! -d "/usr/local/anaconda3/envs/$E" ] && conda create -y -n $E --no-default-packages
+    conda activate $E
+}
+
 ke () {
     kubectl exec -ti $1 -- bash
 }
@@ -54,3 +61,4 @@ for CUSTOM_SCRIPT in $(ls $DE_CUSTOM_PATH);
 do
     source $DE_CUSTOM_PATH/$CUSTOM_SCRIPT
 done
+
