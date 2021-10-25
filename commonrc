@@ -1,4 +1,4 @@
-export DE_PATH=~/.devenv
+export DE_PATH=~/.mde
 
 # ZSH fine-tuning
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=244"
