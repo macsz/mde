@@ -43,12 +43,14 @@ function condatog() {
     if [ -n "${no_conda_path:+1}" ] && [ "$1" != "keep_session" ]; then
         export PATH=$no_conda_path
         unset no_conda_path
-        echo CONDA CLEAR
+        echo Conda is disabled
     else
         export no_conda_path=$PATH
         export PATH=/usr/local/anaconda3/bin:"$PATH"
         . /usr/local/anaconda3/etc/profile.d/conda.sh
-        echo CONDA SET
+        if [ "$1" != "keep_session" ]; then
+            echo Conda is enabled
+        fi
     fi
 }
 
