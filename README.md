@@ -1,1 +1,1 @@
-# devenv
+# macsz dev environment
