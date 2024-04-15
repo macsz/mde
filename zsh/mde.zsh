@@ -1,1 +1,1 @@
-source ~/.devenv/commonrc
+source ~/.mde/commonrc

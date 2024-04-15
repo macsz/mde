@@ -39,24 +39,6 @@ ke () {
 
 export EDITOR="vim"
 
-function condatog() {
-    if [ -n "${no_conda_path:+1}" ] && [ "$1" != "keep_session" ]; then
-        export PATH=$no_conda_path
-        unset no_conda_path
-        echo Conda is disabled
-    else
-        export no_conda_path=$PATH
-        export PATH=/usr/local/anaconda3/bin:"$PATH"
-        . /usr/local/anaconda3/etc/profile.d/conda.sh
-        if [ "$1" != "keep_session" ]; then
-            echo Conda is enabled
-        fi
-    fi
-}
-
-# Enable Anaconda by default
-condatog keep_session
-
 DE_CUSTOM_PATH=$DE_PATH/custom
 
 for CUSTOM_SCRIPT in $(ls $DE_CUSTOM_PATH);
