@@ -1,0 +1,37 @@
+[.mde]
+checkout = git clone 'git@github.com:macsz/mde.git' ~/.mde
+
+[store/code/macsz.github.io]
+checkout = git clone 'https://github.com/macsz/macsz.github.io.git' ~/store/code/macsz.github.io
+
+[store/code/dollar-drama-dashboard]
+checkout = git clone 'git@github.com:macsz/dollar-drama-dashboard.git' ~/store/code/dollar-drama-dashboard
+
+[store/code/nnt]
+checkout = git clone 'git@github.com:macsz/nnt.git' ~/store/code/nnt
+
+[store/code/archivist]
+checkout = git clone 'git@github.com:macsz/archivist.git' ~/store/code/archivist
+
+[store/code/intel/DyNAS-T]
+checkout = git clone 'https://github.com/IntelLabs/DyNAS-T.git' ~/store/code/intel/DyNAS-T
+
+
+[store/code/intel/Search]
+checkout = git clone 'https://github.com/macsz/Search.git' ~/store/code/intel/Search
+skip = test $(whoami) != mszankin
+
+
+[store/code/intel/llama-finetuning-elastic]
+checkout = git clone 'https://github.com/intel-sandbox/llama-finetuning-elastic.git' ~/store/code/intel/llama-finetuning-elastic
+skip = test $(whoami) != mszankin
+
+
+[store/code/intel/elastic-lm-evaluation-harness]
+checkout = git clone 'https://github.com/intel-sandbox/elastic-lm-evaluation-harness.git' ~/store/code/intel/elastic-lm-evaluation-harness
+
+
+[store/code/intel/inventory]
+checkout = git clone 'https://github.com/macsz/inventory.git' ~/store/code/intel/inventory
+skip = test $(whoami) != mszankin
+
