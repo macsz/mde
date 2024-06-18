@@ -16,22 +16,23 @@ checkout = git clone 'git@github.com:macsz/archivist.git' ~/store/code/archivist
 [store/code/intel/DyNAS-T]
 checkout = git clone 'https://github.com/IntelLabs/DyNAS-T.git' ~/store/code/intel/DyNAS-T
 
-
 [store/code/intel/Search]
 checkout = git clone 'https://github.com/macsz/Search.git' ~/store/code/intel/Search
 skip = test $(whoami) != mszankin
-
 
 [store/code/intel/llama-finetuning-elastic]
 checkout = git clone 'https://github.com/intel-sandbox/llama-finetuning-elastic.git' ~/store/code/intel/llama-finetuning-elastic
 skip = test $(whoami) != mszankin
 
-
 [store/code/intel/elastic-lm-evaluation-harness]
 checkout = git clone 'https://github.com/intel-sandbox/elastic-lm-evaluation-harness.git' ~/store/code/intel/elastic-lm-evaluation-harness
-
 
 [store/code/intel/inventory]
 checkout = git clone 'https://github.com/macsz/inventory.git' ~/store/code/intel/inventory
 skip = test $(whoami) != mszankin
 
+[store/code/intel/matscillm]
+checkout = git clone 'https://github.com/intel-sandbox/matscillm.git' ~/store/code/intel/matscillm
+
+[store/code/intel/ai-lab-k8s]
+checkout = git clone 'https://github.com/intel-sandbox/projects.research.ka-cluster.ai-lab-kubernetes.git' ~/store/code/intel/ai-lab-k8s
