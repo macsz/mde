@@ -8,8 +8,14 @@ antigen bundle git
 antigen bundle pip
 antigen bundle command-not-found
 
-## Syntax highlighting bundle.
+## Syntax highlighting, autocomplete and autosuggestions bundles.
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=244"
 antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle marlonrichert/zsh-autocomplete@main
+
+## Other bundles
+antigen bundle "MichaelAquilina/zsh-you-should-use"
 
 ## Load the theme. `refined` is a good alternative to powerlevel10k.
 # antigen theme refined
