@@ -32,3 +32,8 @@ alias v="nvim"
 alias vimdiff="nvim -d"
 export EDITOR="nvim"
 
+# Python-related configuration
+PYENV_ROOT="${HOME}/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
