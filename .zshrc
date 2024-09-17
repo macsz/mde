@@ -25,6 +25,10 @@ antigen theme romkatv/powerlevel10k
 ## Tell Antigen that you're done.
 antigen apply
 
-## Update paths
+## Neovim
 export PATH="$PATH:/opt/nvim-linux64/bin"
+alias vim="nvim"
+alias v="nvim"
+alias vimdiff="nvim -d"
+export EDITOR="nvim"
 
