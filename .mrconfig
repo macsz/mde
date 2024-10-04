@@ -5,3 +5,6 @@ checkout = git clone 'git@github.com:macsz/mde.git' 'mde'
 [code/research/elastic-cnn]
 checkout = git clone 'git@github.com:macsz/elastic-cnn.git' 'elastic-cnn'
 
+[code/web/revride]
+checkout = git clone 'git@github.com:macsz/revride.git' 'revride'
+
