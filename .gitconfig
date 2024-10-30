@@ -25,3 +25,5 @@
     sed \"s/^+//\" | \
     git --no-pager grep -nFf - 2> /dev/null' -"
 
+[pull]
+	ff = true
