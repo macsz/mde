@@ -2,9 +2,18 @@
 [mde]
 checkout = git clone 'git@github.com:macsz/mde.git' 'mde'
 
+[code/nnt]
+checkout = git clone 'git@github.com:macsz/nnt.git' 'nnt'
+
+[code/dollar-drama-dashboard]
+checkout = git clone 'git@github.com:macsz/dollar-drama-dashboard.git' 'dollar-drama-dashboard'
+
 [code/research/elastic-cnn]
 checkout = git clone 'git@github.com:macsz/elastic-cnn.git' 'elastic-cnn'
 
 [code/web/revride]
 checkout = git clone 'git@github.com:macsz/revride.git' 'revride'
+
+[code/web/macsz.github.io]
+checkout = git clone 'git@github.com:macsz/macsz.github.io.git' 'macsz.github.io'
 
