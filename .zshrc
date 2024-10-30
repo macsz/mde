@@ -12,10 +12,11 @@ antigen bundle command-not-found
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=244"
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle marlonrichert/zsh-autocomplete@main
+#antigen bundle marlonrichert/zsh-autocomplete@main
 
 ## Other bundles
 antigen bundle "MichaelAquilina/zsh-you-should-use"
+antigen bundle darvid/zsh-poetry
 
 ## Load the theme. `refined` is a good alternative to powerlevel10k.
 # antigen theme refined
@@ -32,8 +33,10 @@ alias v="nvim"
 alias vimdiff="nvim -d"
 export EDITOR="nvim"
 
-# Python-related configuration
-PYENV_ROOT="${HOME}/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Created by `pipx` on 2024-10-14 22:01:11
+export PATH="$PATH:/home/mac/.local/bin"
 
