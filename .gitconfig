@@ -1,0 +1,29 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Mac Szankin
+	email = maciej@szankin.pl
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[alias]
+  s = "!sh -c ' \
+    [ $GIT_PREFIX ] && cd $GIT_PREFIX; \
+    git status --short --branch $*; \
+    git --no-pager diff -U0 main | \
+    grep \"^+.*TODO\" | \
+    sed \"s/^+//\" | \
+    git --no-pager grep -nFf - 2> /dev/null' -"
+[alias]
+  sm = "!sh -c ' \
+    [ $GIT_PREFIX ] && cd $GIT_PREFIX; \
+    git status --short --branch $*; \
+    git --no-pager diff -U0 master | \
+    grep \"^+.*TODO\" | \
+    sed \"s/^+//\" | \
+    git --no-pager grep -nFf - 2> /dev/null' -"
+
+[pull]
+	ff = true
