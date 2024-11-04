@@ -1,6 +1,6 @@
 
-[mde]
-checkout = git clone 'git@github.com:macsz/mde.git' 'mde'
+[.mde]
+checkout = git clone 'git@github.com:macsz/mde.git' '.mde'
 
 [code/nnt]
 checkout = git clone 'git@github.com:macsz/nnt.git' 'nnt'
