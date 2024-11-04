@@ -16,4 +16,3 @@ checkout = git clone 'git@github.com:macsz/revride.git' 'revride'
 
 [code/web/macsz.github.io]
 checkout = git clone 'git@github.com:macsz/macsz.github.io.git' 'macsz.github.io'
-
