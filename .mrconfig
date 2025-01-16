@@ -1,6 +1,6 @@
 
-[.mde]
-checkout = git clone 'git@github.com:macsz/mde.git' '.mde'
+[mde]
+checkout = git clone 'git@github.com:macsz/mde.git' 'mde'
 
 [code/nnt]
 checkout = git clone 'git@github.com:macsz/nnt.git' 'nnt'
@@ -16,3 +16,7 @@ checkout = git clone 'git@github.com:macsz/revride.git' 'revride'
 
 [code/web/macsz.github.io]
 checkout = git clone 'git@github.com:macsz/macsz.github.io.git' 'macsz.github.io'
+
+[code/OpenStereo]
+checkout = git clone 'git@github.com:macsz/OpenStereo.git' 'OpenStereo'
+
