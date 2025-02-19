@@ -1,9 +1,12 @@
 
-[.mde]
-checkout = git clone 'git@github.com:macsz/mde.git' '.mde'
+[mde]
+checkout = git clone 'git@github.com:macsz/mde.git' 'mde'
 
 [code/nnt]
 checkout = git clone 'git@github.com:macsz/nnt.git' 'nnt'
+
+[code/playground]
+checkout = git clone 'git@github.com:macsz/playground.git' 'playground'
 
 [code/dollar-drama-dashboard]
 checkout = git clone 'git@github.com:macsz/dollar-drama-dashboard.git' 'dollar-drama-dashboard'
@@ -20,8 +23,20 @@ checkout = git clone 'git@github.com:macsz/once-for-all.git' 'ofa'
 [code/web/revride]
 checkout = git clone 'git@github.com:macsz/revride.git' 'revride'
 
+[code/web/dsifood.pl]
+checkout = git clone 'git@github.com:dsifood/dsifood.git' 'dsifood.pl'
+
 [code/web/macsz.github.io]
 checkout = git clone 'git@github.com:macsz/macsz.github.io.git' 'macsz.github.io'
 
 [code/genai/a1111]
 checkout = git clone 'https://github.com/AUTOMATIC1111/stable-diffusion-webui' 'a1111'
+
+[code/OpenStereo]
+checkout = git clone 'git@github.com:macsz/OpenStereo.git' 'OpenStereo'
+
+[code/sima/vdp-custom-pipelines]
+checkout = git clone -b develop git@bitbucket.org:sima-ai/vdp-custom-pipelines.git vdp-custom-pipelines
+
+[code/tools/onnx-modifier]
+checkout = git clone https://github.com/ZhangGe6/onnx-modifier.git 'onnx-modifier'
