@@ -23,6 +23,9 @@ checkout = git clone 'git@github.com:dsifood/dsifood.git' 'dsifood.pl'
 [code/web/macsz.github.io]
 checkout = git clone 'git@github.com:macsz/macsz.github.io.git' 'macsz.github.io'
 
+[code/web/cvam-workshop.github.io]
+checkout = git clone 'git@github.com:cvam-workshop/cvam-workshop.github.io.git' 'cvam-workshop.github.io'
+
 [code/OpenStereo]
 checkout = git clone 'git@github.com:macsz/OpenStereo.git' 'OpenStereo'
 
@@ -31,3 +34,10 @@ checkout = git clone -b develop git@bitbucket.org:sima-ai/vdp-custom-pipelines.g
 
 [code/tools/onnx-modifier]
 checkout = git clone https://github.com/ZhangGe6/onnx-modifier.git 'onnx-modifier'
+
+[code/sima/devkit-inference-examples]
+checkout = git clone git@bitbucket.org:sima-ai/devkit-inference-examples.git 'devkit-inference-examples'
+
+[code/sima/apps-rag-ag]
+checkout = git clone git@bitbucket.org:sima-ai/apps-rag-ag.git apps-rag-ag
+
