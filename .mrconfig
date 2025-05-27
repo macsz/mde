@@ -14,6 +14,12 @@ checkout = git clone 'git@github.com:macsz/dollar-drama-dashboard.git' 'dollar-d
 [code/research/elastic-cnn]
 checkout = git clone 'git@github.com:macsz/elastic-cnn.git' 'elastic-cnn'
 
+[code/research/facenet-pytorch]
+checkout = git clone 'git@github.com:macsz/facenet-pytorch.git' 'facenet-pytorch'
+
+[code/research/ofa]
+checkout = git clone 'git@github.com:macsz/once-for-all.git' 'ofa'
+
 [code/web/revride]
 checkout = git clone 'git@github.com:macsz/revride.git' 'revride'
 
@@ -25,6 +31,9 @@ checkout = git clone 'git@github.com:macsz/macsz.github.io.git' 'macsz.github.io
 
 [code/web/cvam-workshop.github.io]
 checkout = git clone 'git@github.com:cvam-workshop/cvam-workshop.github.io.git' 'cvam-workshop.github.io'
+
+[code/genai/a1111]
+checkout = git clone 'https://github.com/AUTOMATIC1111/stable-diffusion-webui' 'a1111'
 
 [code/OpenStereo]
 checkout = git clone 'git@github.com:macsz/OpenStereo.git' 'OpenStereo'
