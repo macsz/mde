@@ -50,3 +50,5 @@ checkout = git clone git@bitbucket.org:sima-ai/devkit-inference-examples.git 'de
 [code/sima/apps-rag-ag]
 checkout = git clone git@bitbucket.org:sima-ai/apps-rag-ag.git apps-rag-ag
 
+[code/sima/apps-genai-demo]
+checkout = git clone git@bitbucket.org:sima-ai/apps-genai-demo.git apps-genai-demo
