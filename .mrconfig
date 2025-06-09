@@ -14,6 +14,9 @@ checkout = git clone 'git@github.com:macsz/dollar-drama-dashboard.git' 'dollar-d
 [code/research/elastic-cnn]
 checkout = git clone 'git@github.com:macsz/elastic-cnn.git' 'elastic-cnn'
 
+[code/research/ocr-cnn-vlm]
+checkout = git clone git@github.com:macsz/ocr-cnn-vlm.git ocr-cnn-vlm
+
 [code/research/facenet-pytorch]
 checkout = git clone 'git@github.com:macsz/facenet-pytorch.git' 'facenet-pytorch'
 
