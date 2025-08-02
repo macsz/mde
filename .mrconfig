@@ -29,6 +29,9 @@ checkout = git clone 'git@github.com:dsifood/dsifood.git' 'dsifood.pl'
 [code/web/macsz.github.io]
 checkout = git clone 'git@github.com:macsz/macsz.github.io.git' 'macsz.github.io'
 
+[code/web/cvam-workshop.github.io]
+checkout = git clone git@github.com:cvam-workshop/cvam-workshop.github.io.git 'cvam-workshop.github.io'
+
 [code/genai/a1111]
 checkout = git clone 'https://github.com/AUTOMATIC1111/stable-diffusion-webui' 'a1111'
 
