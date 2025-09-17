@@ -59,6 +59,15 @@ checkout = git clone git@bitbucket.org:sima-ai/apps-genesis.git apps-genesis
 [code/sima/apps-genai-demo]
 checkout = git clone git@bitbucket.org:sima-ai/apps-genai-demo.git apps-genai-demo
 
+[code/sima/arch-speculative-decoding]
+checkout = git clone git@bitbucket.org:sima-ai/arch-speculative-decoding.git arch-speculative-decoding
+
+[code/sima/swml-auto-lmm]
+checkout = git clone git@bitbucket.org:sima-ai/swml-auto-lmm.git swml-auto-lmm -b develop
+
+[code/sima/sima-utils]
+checkout = git clone git@bitbucket.org:sima-ai/sima-utils.git sima-utils
+
 [code/PaddleOCR]
 checkout = git clone https://github.com/PaddlePaddle/PaddleOCR.git PaddleOCR
 
