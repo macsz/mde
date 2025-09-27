@@ -62,3 +62,5 @@ checkout = git clone git@bitbucket.org:sima-ai/apps-genai-demo.git apps-genai-de
 [code/PaddleOCR]
 checkout = git clone https://github.com/PaddlePaddle/PaddleOCR.git PaddleOCR
 
+[code/projects/archivist]
+checkout = git clone git@github.com:macsz/archivist.git archivist
