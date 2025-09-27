@@ -66,7 +66,37 @@ checkout = git clone git@bitbucket.org:sima-ai/arch-speculative-decoding.git arc
 checkout = git clone git@bitbucket.org:sima-ai/swml-auto-lmm.git swml-auto-lmm -b develop
 
 [code/sima/sima-utils]
-checkout = git clone git@bitbucket.org:sima-ai/sima-utils.git sima-utils
+checkout = git clone git@bitbucket.org:sima-ai/sima-utils.git sima-utils -b develop
+
+[code/sima/awesome-front-end]
+checkout = git clone git@bitbucket.org:sima-ai/awesome-front-end.git -b develop
+
+[code/sima/devkit-inference-examples]
+checkout = git clone git@bitbucket.org:sima-ai/devkit-inference-examples.git -b develop
+
+[code/sima/n2a_compiler]
+checkout = git clone git@bitbucket.org:sima-ai/n2a_compiler.git -b develop
+
+[code/sima/mla-toolchain]
+checkout = git clone git@bitbucket.org:sima-ai/mla-toolchain.git -b develop
+
+[code/sima/mla]
+checkout = git clone git clone git@bitbucket.org:sima-ai/mla.git -b develop
+
+[code/sima/ml_kernels]
+checkout = git clone git@bitbucket.org:sima-ai/ml_kernels.git -b develop
+
+[code/sima/mppe]
+checkout = git clone git@bitbucket.org:sima-ai/mppe.git -b develop
+
+[code/sima/ev-transforms]
+checkout = git clone git@bitbucket.org:sima-ai/ev-transforms.git -b develop
+
+[code/sima/tvm]
+checkout = git clone git@bitbucket.org:sima-ai/tvm.git -b develop
+
+[code/sima/vdp-mpktool]
+checkout = git clone git@bitbucket.org:sima-ai/vdp-mpktool.git -b develop
 
 [code/PaddleOCR]
 checkout = git clone https://github.com/PaddlePaddle/PaddleOCR.git PaddleOCR
