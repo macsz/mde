@@ -81,7 +81,7 @@ checkout = git clone git@bitbucket.org:sima-ai/n2a_compiler.git -b develop
 checkout = git clone git@bitbucket.org:sima-ai/mla-toolchain.git -b develop
 
 [code/sima/mla]
-checkout = git clone git clone git@bitbucket.org:sima-ai/mla.git -b develop
+checkout = git clone git@bitbucket.org:sima-ai/mla.git -b develop
 
 [code/sima/ml_kernels]
 checkout = git clone git@bitbucket.org:sima-ai/ml_kernels.git -b develop
@@ -98,8 +98,13 @@ checkout = git clone git@bitbucket.org:sima-ai/tvm.git -b develop
 [code/sima/vdp-mpktool]
 checkout = git clone git@bitbucket.org:sima-ai/vdp-mpktool.git -b develop
 
+[code/sima/arch-pruning]
+checkout = git clone git@bitbucket.org:sima-ai/arch-pruning.git -b develop
+
 [code/PaddleOCR]
 checkout = git clone https://github.com/PaddlePaddle/PaddleOCR.git PaddleOCR
 
 [code/projects/archivist]
 checkout = git clone git@github.com:macsz/archivist.git archivist
+
+
