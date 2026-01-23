@@ -45,7 +45,4 @@ export PATH="$HOME/gems/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
-
-# Created by `pipx` on 2024-10-14 22:01:11
-export PATH="$PATH:/home/mac/.local/bin"
-
+. "$HOME/.local/bin/env"
