@@ -27,3 +27,5 @@
 
 [pull]
 	ff = true
+[safe]
+        directory = %(prefix)///wsl.localhost/
