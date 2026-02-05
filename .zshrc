@@ -28,9 +28,6 @@ antigen apply
 
 ## Neovim
 export PATH="$PATH:/opt/nvim-linux64/bin:/opt/nvim-linux-arm64/bin:/opt/nvim/"
-alias vim="nvim"
-alias v="nvim"
-alias vimdiff="nvim -d"
 export EDITOR="nvim"
 
 export NVM_DIR="$HOME/.nvm"
@@ -46,3 +43,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 . "$HOME/.local/bin/env"
+. "$HOME/.aliases"
+

@@ -1,0 +1,8 @@
+# VIM
+alias vim="nvim"
+alias v="nvim"
+alias vimdiff="nvim -d"
+
+# System utils
+alias dud1="du -h --max-depth 1"
+
