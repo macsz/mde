@@ -7,6 +7,11 @@ antigen use oh-my-zsh
 antigen bundle git
 antigen bundle pip
 antigen bundle command-not-found
+antigen bundle docker
+antigen bundle history
+antigen bundle rust
+antigen bundle tmux
+antigen bundle uv
 
 ## Syntax highlighting, autocomplete and autosuggestions bundles.
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=244"
